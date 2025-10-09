@@ -15,96 +15,74 @@
     <title>VAIN - about</title>
     <link rel="shortcut icon" href="0 - LOGOS/logo-vain-black.png">
     <link rel="stylesheet" type="text/css" href="0 - STYLES/about_page.css">
-    <link rel="stylesheet" type="text/css" href="0 - STYLES/secondary_pages_base.css">
     <link rel="stylesheet" type="text/css" href="0 - STYLES/base.css">
 </head>
 
 <header>
-    <div class="nav">
-        <div class="nav-link-container">
-            <a class="nav-link" href="index.html">HOME</a>
-        </div>
-        <div class="nav-link-container">
-            <a class="nav-link" href="blog_page.html">BLOG</a>
-        </div>
-        <div class="nav-link-container top-logo-container">
+    <div class="top-section">
+        <div class="top-logo-container">
             <a href="index.html"><img class="top-logo" src="0 - LOGOS/logo-vain-gray.png"></a>
         </div>
         <div class="nav-link-container">
-            <a class="nav-link" href="works_page.html">WORKS</a>
+            <a class="nav-link" href="index.html">home</a>
         </div>
         <div class="nav-link-container">
-            <a class="nav-link" href="about_page.html">ABOUT</a>
+            <a class="nav-link" href="blog_page.html">blog</a>
+        </div>
+        <div class="nav-link-container">
+            <a class="nav-link" href="works_page.html">works</a>
+        </div>
+        <div class="nav-link-container">
+            <a class="selected-link nav-link" href="about_page.html">about</a>
         </div>
     </div>
-    <a href="instagram.com" class="social-icon-container instagram">
-        <img class="social-icon-logo" src="0 - LOGOS/instagram.png">
-        <span class="social-title">
-            Instagram
-        </span>
-        <span class="social-icon-text">
-            La vetrina della mia musica. Vivi il viaggio
-        </span>
-    </a>
-    <a href="tiktok.com" class="social-icon-container tiktok">
-        <img class="social-icon-logo" src="0 - LOGOS/TikTok.png">
-        <span class="social-title">
-            TikTok
-        </span>
-        <span class="social-icon-text">
-            Spoiler, curiosità e tanto altro
-        </span>
-    </a>
-    <a href="youtube.com" class="social-icon-container youtube">
-        <img class="social-icon-logo" src="0 - LOGOS/YouTube-logo.png">
-        <span class="social-title">
-            YouTube
-        </span>
-        <span class="social-icon-text">
-            Video musicali, backstage e storie inedite
-        </span>
-    </a>
 </header>
 
 <body>
-    <div class="vain-page">
-        <a href="instagram.com" class="social-icon-container instagram">
-            <img class="social-icon-logo" src="0 - LOGOS/instagram.png">
-            <span class="social-title">
-                Instagram
-            </span>
-            <span class="social-icon-text">
-                La vetrina della mia musica. Vivi il viaggio
-            </span>
-        </a>
-        <a href="spotify.com" class="social-icon-container spotify">
-            <img class="social-icon-logo" src="0 - LOGOS/Spotify.png">
-            <span class="social-title">
-                Spotify
-            </span>
-            <span class="social-icon-text">
-                Dove la musica prende defintivamente forma
-            </span>
-        </a>
-        <a href="tiktok.com" class="social-icon-container tiktok">
-            <img class="social-icon-logo" src="0 - LOGOS/TikTok.png">
-            <span class="social-title">
-                TikTok
-            </span>
-            <span class="social-icon-text">
-                Spoiler, curiosità e tanto altro
-            </span>
-        </a>
-        <a href="youtube.com" class="social-icon-container youtube">
-            <img class="social-icon-logo" src="0 - LOGOS/YouTube-logo.png">
-            <span class="social-title">
-                YouTube
-            </span>
-            <span class="social-icon-text">
-                Video musicali, backstage e storie inedite
-            </span>
-        </a>
-    </div>
+    <section id="section-01">
+        <div id="bg-image-container">
+            <img id="bg-image" src="0 - IMAGES/walking.png">
+        </div>
+        <h1 id="about-simo">ABOUT SIMO</h1>
+        <p id="just-living">just living my <span id="creative">Simosophia</span></p>
+
+        <button id="explore-button" onclick="document.getElementById('section-02').scrollIntoView({ behavior: 'smooth' });">
+            discovery
+        </button>
+    </section>
+
+    <section id="section-02">
+        <div class="chi-sono-container">
+            <h1 id="chi-sono">CHI SONO</h1>
+            <p>iperattivo, <span id="creative">creativo</span> e curioso</p>
+            <p>se ti sembro con la testa tra le nuovole è perché probabilmente lo sono</p>
+            <p>trovi il mio <span id="creative">percorso</span> qui sotto:</p>
+            <button id="explore-button" onclick="document.getElementById('section-03').scrollIntoView({ behavior: 'smooth' });">
+                more
+            </button>
+        </div>
+
+    </section>
+
+    <section id="section-03">
+        <h1 id="chi-sono">IL VIAGGIO</h1>
+        <div id="experiences">
+            <div class="experience-box">
+                <p class="experience">Rappresentante d’istituto, Liceo Ulivi</p>
+                <p class="experience-data">Experience · oct 2024 - jun 2025</p>
+            </div>
+            <hr>
+            <div class="experience-box">
+                <p class="experience">Membro Redazione Punto e Virgola</p>
+                <p class="experience-data">Journalism ·  apr 2025 - now</p>
+            </div>
+            <hr>
+            <div class="experience-box">
+                <p class="experience">Bronzo alle Olimpiadi Internazionali di Filosofia</p>
+                <p class="experience-data">School ·  mag 2025</p>
+            </div>
+        </div>
+    </section>
 </body>
 
 <footer>

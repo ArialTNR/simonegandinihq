@@ -24,86 +24,54 @@
         <div class="top-logo-container">
             <a href="index.html"><img class="top-logo" src="0 - LOGOS/logo-vain-gray.png"></a>
         </div>
-        <div class="nav">
-            <a class="nav-link" href="index.html">HOME</a>
-            <a class="nav-link" href="blog_page.html">BLOG</a>
-            <a class="nav-link" href="works_page.html">WORKS</a>
-            <a class="nav-link" href="about_page.html">ABOUT</a>
+        <div class="nav-link-container">
+            <a class="selected-link nav-link" href="index.html">home</a>
+        </div>
+        <div class="nav-link-container">
+            <a class="nav-link" href="blog_page.html">blog</a>
+        </div>
+        <div class="nav-link-container">
+            <a class="nav-link" href="works_page.html">works</a>
+        </div>
+        <div class="nav-link-container">
+            <a class="nav-link" href="about_page.html">about</a>
         </div>
     </div>
-    <a href="#section-01" class="scroll-down-button" address="true"></a>
 </header>
 
 <body class="body">
-    <section id="section-01">
-        <div class="best-articles-title">
-            <h1 class="title">My best articles</h1>
+    <section id="section-00">
+        <div id="main-title">
+            <h1 id="main-h1">SIMONE GANDINI</h1>
+            <h4 id="main-h4">a <span id="creative">creative</span> hyperactive</h4>
         </div>
-        <div class="best-articles-container">
-            <a class="link-to-article" href="Che_fine_ha_fatto_l_ISIS.html">
-                <div class="article-box">
-                    <img class="article-cover" src="0 - IMAGES/cover-ISIS.jpeg">
-                    <h4 class="article-title">Che fine ha fatto l'ISIS?</h4>
-                    <p class="article-duration">19 settembre 2023  •  9 min</p>
-                    <p class="article-description">Attacchi terroristici, tensione e paura. Fino a qualche anno fa era questa la nostra attenzione verso l’ISIS. E poi cosa è successo?</p>
-                </div>
-            </a>
-            <a class="link-to-article" href="Elezioni_Europee.html">
-                <div class="article-box">
-                    <img class="article-cover" src="0 - IMAGES/cover-europee.jpg">
-                    <h4 class="article-title">Riassunto imparziale dei partiti per le Elezioni Europee</h4>
-                    <p class="article-duration">5 giugno 2024  •  20 min</p>
-                    <p class="article-description">Stufo di dover fare ricerche su ricerche per ogni singolo partito senza trovare nulla? Ecco un riassunto completo e imparziale per te!</p>
-                </div>
-            </a>
-            <a class="link-to-article" href="Chi-è-il-nuovo-boss-di-Cosa-Nostra.html">
-                <div class="article-box">
-                    <img class="article-cover" src="0 - IMAGES/cover-mafia.jpg">
-                    <h4 class="article-title">Chi è il nuovo boss di Cosa Nostra?</h4>
-                    <p class="article-duration">21 novembre 2023  •  8 min</p>
-                    <p class="article-description">Dopo la cattura di Messina Denaro si riparte da capo ancora una volta, a caccia di nuovi latitanti. Chi è il nuovo boss ora?</p>
-                </div>
-            </a>
-        </div>
+        <button id="explore-button" onclick="document.getElementById('section-01').scrollIntoView({ behavior: 'smooth' });">
+            discovery
+        </button>
     </section>
-    <div class="music-section-container">
-        <a href="https://open.spotify.com/album/37uApaRRpfxiLHcRZfSibY?si=Z6ROwX_3QHKvCo2pUNNnEw" target="_blank" class="music-cover-container">
-            <img class="music-cover" src="0 - IMAGES/cover-Cosmodissea.png">
-        </a>
-        <div class="music-description-container">
-            <h4 class="last-music-drop">Ultima uscita</h4>
-            <h1 class="music-title">Cosmodissea</h1>
-            <p class="music-description">Un viaggio, un vero e proprio poema musicale alla ricerca di un futuro molto più vicino di quanto ci possiamo immaginare</p>
-            <p class="music-call-to-action">Ascolta ora su:</p>
-            <div class="streaming-links">
-                <a href="https://open.spotify.com/album/37uApaRRpfxiLHcRZfSibY?si=Z6ROwX_3QHKvCo2pUNNnEw"><img class="streaming-logo" src="0 - LOGOS/Spotify.png"></a>
-                <a href="https://geo.music.apple.com/it/album/_/1679141070?app=music&at=1000lHKX&ct=linktree_http&itscg=30200&itsct=lt_m&ls=1&mt=1"><img class="streaming-logo" src="0 - LOGOS/Apple.png"></a>
-                <a href="https://www.youtube.com/playlist?list=PLGQks_9_gszr6m4Oh5RyrkgEw4pA7YVoI"><img class="streaming-logo" src="0 - LOGOS/YouTube.png"></a>
-                <a href="https://music.amazon.com/albums/B0BZKGKW51"><img class="streaming-logo" src="0 - LOGOS/Amazon.png"></a>
-            </div>
-        </div>
+
+<section id="section-01">
+    <div class="left-main">
+        <h1 class="handmade-title">Areas</h1>
+        <p>"Essere multitasking è la più grande <span id="creative">fregatura</span> dei nostri tempi"</p>
     </div>
-    <div class="newsletter-subscribe-container">
-        <div class="newsletter-box">
-            <h1 class="music-title">Vuoi sapere di più su quello che faccio?</h1>
-            <h3>Entra nel mio <u>canale WhatsApp</u>, per rimanere aggiornato su tutto quello che faccio a 360 gradi e prima di tutti gli altri!</h3>
-            <a class="newsletter-subscriber" href="https://whatsapp.com/channel/0029Vac4pSfD38CTAi9QPQ2I">
-                <h3 class="newsletter-text">Entra qui</h3>
+    <div class="right-main">
+        <div class="carousel">
+            <a href="https://instagram.com/sonovain" class="area" id="music-area">
+                <h1>Musica</h1>
+            </a>
+            <a href="blog_page.html" class="area" id="journalism-area">
+                <h1>Articoli</h1>
+            </a>
+        </div>
+        <div class="carousel right-carousel">
+            <a href="agerculture.com" class="area" id="startup-area">
+                <h1>Ager</h1>
             </a>
         </div>
     </div>
-    <div class="about-me-section-container">
-        <div class="music-description-container">
-            <h4 class="last-music-drop">About me</h4>
-            <h1 class="music-title">Simone Gandini</h1>
-            <p class="music-text">Scrivo, creo e racconto storie. Sono un giornalista, scrittore, rapper e tanto altro con un solo obiettivo: creare consapevolezza.</p>
-            <p class="music-text">Se vuoi sapere altre cose su di me visita la <a class="external-link link-design" href="about_page.html">about page</a></p>
-            <p class="music-text">Se invece vuoi vedere quello che faccio <a class="external-link link-design" href="works_page.html">clicca qui</a></p>
-        </div>
-        <div class="personal-picture-container">
-            <img class="music-cover" src="0 - IMAGES/simone-spiaggia.jpg">
-        </div>
-    </div>
+</section>
+
 </body>
 <footer>
     <div class="menu-columns-container">

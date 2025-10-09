@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rock+Salt&display=swap');
 
 /*PAGE*/
 
@@ -9,11 +9,50 @@ html {
 a {
     text-decoration: none;
 }
+div {
+    border-radius: 25px;
+}
+.handmade-title {
+    font-family: 'Rock Salt';
+}
+#creative {
+    color: #FF0000;
+}
 
 /*HEADER*/
 
+header {
+    position: absolute;
+}
+.top-section {
+    display: flex;
+    flex-direction: row;
+    height: 6%;
+    padding: 2%;
+    width: auto;
+}
+.top-logo-container {
+    display: flex;
+    height: 3em;
+    justify-content: center;
+    width: 3em;
+}
+.top-logo {
+    height: 3em;
+}
+.nav-link-container {
+    align-content: center;
+    height: 6%;
+    margin: auto;
+    text-align: center;
+    width: 4em;
+}
 .nav-link {
-    font-size: 18px;
+    font-size: 15px;
+    color: #CCCDC7;
+}
+.selected-link {
+    color: #FF0000;
 }
 
 /*BODY*/
@@ -23,6 +62,23 @@ body {
     max-width: 100%;
     margin: 0;
     padding: 0;
+}
+
+#main-title {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    margin: auto;
+    text-align: center;
+}
+#main-h1 {
+    color: #050206;
+    font-size: 100px;
+    font-weight: 800;
+    margin-bottom: 0rem;
+}
+#main-h4 {
+    margin-top: 1rem;
 }
 
 .streaming-links {
@@ -142,12 +198,6 @@ footer {
     
   }
 @media screen and (max-width: 992px) {
-    .nav-link {
-        font-size: 30px;
-    }
-    .top-logo {
-      height: 10em;
-    }
     
     .menu-columns-container {
         display: flex;
@@ -172,18 +222,51 @@ footer {
         margin-top: 5%;
     }
     .social-logo {
-        height: 6em;
+        height: 4em;
     }
     .copy-container {
         width: 80%;
         margin: auto;
         padding-left: 0;
     }
+    .menu-title {
+        font-size: 35px;
+    }
     .copy {
-        font-size: 40px;
+        font-size: 25px;
+    }
+    .footer-link {
+        font-size: 25px;
     }
   }
 
 @media screen and (max-width: 600px) {
+    #main-h1 {
+        font-size: 50px;
+    }
+    #main-h4 {
+        font-size: 50px;
+    }
+    #social-media-logos {
+        margin: auto;
+        margin-top: 5%;
+    }
+    .social-logo {
+        height: 4em;
+    }
+    .copy-container {
+        width: 90%;
+        margin: auto;
+        padding-left: 0;
+    }
+    .copy {
+        font-size: 20px;
+    }
+    .menu-title {
+        font-size: 25px;
+    }
+    .footer-link {
+        font-size: 20px;
+    }
     
 }

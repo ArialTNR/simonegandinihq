@@ -1,128 +1,205 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap');
 
-header {
-    height: 100%;
-    height: 100vh;
-    width: auto;
-    font-family: 'Inter', sans-serif;
-    background-image: url("../0 - IMAGES/simone-neve.png");
-    background-size: cover;
-    background-position: center;
-}
-.top-logo-container {
-    text-align: center;
-}
-.top-logo {
-    height: 8em;
-}
-.nav-link-container {
-    height: 8em;
-    width: 8em;
-    align-items: center;
-    display: flex;
-}
-.nav-link {
-    text-decoration: none;
-    color: #CCCDC7;
-    margin: auto;
-}
 
-/*ALL THE SOCIAL*/
-.instagram {
-    margin-top: 15%;
-    margin-left: 20%;
-}
-.spotify {
-    margin-top:20%;
-    margin-left: 65%;
-}
-.tiktok {
-    margin-top: 34%;
-    margin-left: 58%;
-}
-.youtube {
-    margin-top: 38%;
-    margin-left: 25%;
-}
-
-.social-icon-container {
-    height: 5%;
-    width: 8%;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: solid 2px #cccdc74d;
-    border-radius: 2em;
-    transition-duration: .4s;
-    text-decoration: none;
-    color: #3B3B3B;
-    font-size: 17px;
-    overflow: hidden;
-}
-    .social-icon-container:hover {
-    height: 20%;
-    width: 32%;
-    background-color: #cccdc74d;
-    border: none;
-    }
-.social-icon-logo {
-    height: 80%;
-    margin-top: 3%;
-}
-    .social-icon-container:hover .social-icon-logo {
-        height: 20%;
-        transition: .35s;
-    }
-.social-title {
-    margin-top: 2em;
-    font-weight: 600;
-}
-.social-icon-text {
-    margin-top: 1em;
+hr {
+    width: 100%;
 }
 
 
 body {
     background-color: #050206;
-    font-family: 'Inter', sans-serif;
+    color: #CCCDC7;
     margin: 0;
     padding: 0;
 }
-.vain-page {
-    height: 100%;
+section {
+    width: 100%;
     height: 100vh;
-    width: auto;
-    background-image: url("../0 - IMAGES/vain-neve.png");
-    background-size: cover;
-    background-position: center;
 }
 
+#section-01 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+#bg-image-container {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+    text-align: center;
+    justify-content: center;
+}
+#bg-image {
+    width: 40em;
+}
+#about-simo {
+    font-size: 150px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+#just-living {
+    margin-top: 0;
+}
 
+#explore-button {
+    align-content: center;
+    background-color: #050206;
+    border: 1px #CCCDC7 solid;
+    border-radius: 25px;
+    color: #CCCDC7;
+    cursor: pointer;
+    height: 3rem;
+    margin: auto;
+    margin-bottom: 1%;
+    text-align: center;
+    width: 7rem;
+    margin-top: 2%;
+}
 
+#section-02 {
+    background: radial-gradient(circle at top left, #811009, transparent, transparent, transparent);
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+#chi-sono {
+  font-family: "Karantina", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 200px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
 
+#section-03 {
+    background: radial-gradient(circle at top left, #9747FF, transparent, transparent, transparent);
+    justify-items: center;
+    padding-top: 7%;
+}
+#experiences {
+    width: 50%;
+    margin-top: 2em;
+}
+.experience-box {
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+.experience-data {
+    color: #9A8174;
+}
+
+/* QUERIES */
 
 @media screen and (max-width: 1440px) {
-    
+    #bg-image {
+        width: 30em;
+    }
+    #about-simo {
+        font-size: 100px;
+    }
+    #just-living {
+        font-size: 25px;
+    }
+    #explore-button {
+        height: 2.5rem;
+        width: 6rem;
+        font-size: 14px;
+    }
+    #chi-sono {
+        font-size: 150px;
+    }
+    #experiences {
+        width: 70%;
+    }
 }
 @media screen and (max-width: 1000px) {
-    .instagram {
-        margin-top: 50%;
-        margin-left: 20%;
+    #section-01 {
+        gap: 1em;
     }
-    .spotify {
-        margin-top:100%;
-        margin-left: 65%;
+    #bg-image {
+        width: 20em;
     }
-    .tiktok {
-        margin-top: 34%;
-        margin-left: 70%;
+    #about-simo {
+        font-size: 70px;
     }
-    .youtube {
-        margin-top: 120%;
-        margin-left: 25%;
+    #just-living {
+        font-size: 20px;
+    }
+    #explore-button {
+        height: 2rem;
+        width: 5rem;
+        font-size: 12px;
+    }
+    #chi-sono {
+        font-size: 100px;
+    }
+    #experiences {
+        width: 80%;
     }
 }
 @media screen and (max-width: 600px) {
-  
+    #section-01 {
+        gap: 1em;
+    }
+    #bg-image {
+        width: 15em;
+    }
+    #about-simo {
+        font-size: 50px;
+    }
+    #just-living {
+        font-size: 15px;
+    }
+    #explore-button {
+        height: 1.5rem;
+        width: 4rem;
+        font-size: 10px;
+    }
+    #chi-sono {
+        font-size: 70px;
+    }
+    #experiences {
+        width: 90%;
+    }
+    #section-02 {
+        width: 100%;
+    }
+    .chi-sono-container {
+        width: 80%;
+        margin: auto;
+    }
+    #section-03 {
+        width: 100%;
+    }
+    #explore-button {
+        height: 3em;
+        font-size: 15px;
+        width: 10rem;
+    }
+
+    #section-03 {
+        padding-top: 20%;
+    }
+    #experiences {
+        width: 100%;
+        width: 80%;
+        margin: auto;
+        margin-top: 5em;
+    }
+    .experience-box {
+        flex-direction: column;
+        height: auto;
+        gap: 0.5em;
+    }
+    .experience-data {
+        font-size: 14px;
+    }
 }

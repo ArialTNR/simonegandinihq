@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+span {
+    font-weight: 700;
+}
+a {
+    color: #CCCDC7;
+    border-radius: 25px;
+}
+
 /*BODY*/
 
 body {
@@ -10,222 +18,207 @@ body {
     display: flex;
     flex-direction: column;
 }
-.last-article-section {
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 5%;
-    padding-top: 10%;
-    margin: auto;
-    width: 80%;
-    padding-bottom: 10%;
-}
-.blog-section {
-    background-image: url("../0 - IMAGES/discover.png");
-    width: 100%;
-}
-.left-side-container {
-    width: 40%;
-    height: 75%;
-}
-.last-article-container {
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 35em;
-    border-radius: 2.5em;
-    transition-duration: 0.35s;
-}
-    .last-article-container:hover {
-        background-color: #9a81740f;
-    }
-.last-article-smaller-box {
-    width: 90%;
-    height: 90%;
-    max-width: fit-content;
-    margin: auto;
-}
-.last-article-ad {
-    color: #9A8174;
-}
-.last-article-title {
-    padding-bottom: 1em;
-    color: #CCCDC7;
-}
-.last-article-cover {
-    width: 90%;
-    border-radius: 20px;
-}
-.types-of-article {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    height: 75%;
-    margin-top: 5%;
-}
-.article-country {
-    height: 6em;
-    margin: auto;
-    transition-duration: .35s;
-}
-    .article-country:hover {
-        height: 8em;
-        margin: auto;
-    }
 
-.articles-gallery-container {
-    padding: 15%;
-    padding-top: 0;
-    margin: 0;
-    margin-top: 0;
-    height: 60%;
-    width: 70%;
-}
-.article-gallery-line {
+#section-00 {
+    width: 100%;
+    height: 90vh;
+    background-image: url("../0 - IMAGES/simone-spiaggia-nera-2.png");
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
 }
-.best-articles-container {
-    text-align: center;
-    justify-content: center;
+.main-h1-blog {
+    padding-bottom: 2em;
+}
+
+#section-01 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 2%;
-    padding-bottom: 5%;
     width: 100%;
-    max-width: 100%;
+    height: auto;
+    margin: auto;
+    justify-content: space-around;
+    gap: 1em;
+    margin-bottom: 5%;
 }
-.link-to-article {
-    text-decoration: none;
-    padding-top: 5%;
+.blog-column {
+    width: 29%;
 }
-.article-box {
-    border-radius: 1rem;
-    background-color: none;
+#column-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.article-displayed {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
     color: #CCCDC7;
-    width: 20em;
-    height: 29em;
-    transition-duration: 0.35s;
-}
-    .article-box:hover {
-        background-color: #3B3B3B;
-        width: 21em;
-        height: 30em;
-    }
-.article-cover {
-    height: 41%;
-    padding: 1em;
     border-radius: 25px;
 }
-.article-title {
-    font-weight: 700;
-    font-size: 20px;
-    padding-left: 1em;
-    padding-right: 1em;
+.article-displayed-upper-part {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    gap: 1em;
 }
-.article-duration {
-    color: #9A8174;
+.article-displayed-cover {
+    height: 6em;
+    width: auto;
+    border-radius: 25px;
+}
+.article-displayed-topic {
+    background-color: #CCCDC7;
+    color: #050206;
+    height: 1em;
+    display: inline-block;
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    text-align: center;
+    font-weight: bold;
+}
+.topic {
+    margin: auto;
     font-size: 13px;
+}
+.article-displayed-plot {
+    font-size: 11px;
     font-weight: 300;
 }
-.article-description {
+.punto-e-virgola {
+    background: radial-gradient(circle at bottom right, #811009, #0E0E0E, #0E0E0E);
+}
+.article-displayed-info {
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+.article-displayed-title {
     font-size: 15px;
-    padding: 1.5em;
+    font-weight: 600;
+}
+.article-displayed-data {
+    font-size: 11px;
+    font-weight: 300;
+}
+.normal-article {
+    background: radial-gradient(circle at bottom right, #050206, #0E0E0E, #0E0E0E);
+}
+.more-articles {
+    height: 5em;
+    background-color: #1E1E1E;
+    border-radius: 25px;
+    color: #CCCDC7;
+    text-align: center;
+    line-height: 2.5em;
 }
 
+#column-2 {
+    background-color: #CCCDC7;
+    color: #050206;
+    padding: 2em;
+    font-size: 15px;
+}
+.upper-text {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+#upper-letter {
+    height: auto;
+    width: 2em;
+}
+
+#column-3 {
+    display: flex;
+    flex-direction: column;
+}
+#top-button {
+    background-color: #CCCDC7;
+    color: #050206;
+    display: flex;
+    height: auto;
+    width: 5em;
+    justify-content: center;
+    margin-left: 70%;
+    margin-top: 1em;
+}
+#best-article-big {
+    background-image: url("../0 - IMAGES/cosa_nostra_preview.png");
+    background-size: cover;
+    background-position: center;
+    color: #CCCDC7;
+    border-radius: 25px;
+}
+#best-article-data {
+    width: auto;
+    padding: 3em;
+    text-align: center;
+    margin-top: 15em;
+}
+#top-article-info {
+    color: #9A8174;
+    font-size: 13px;
+    margin: 4em;
+}
+#top-article-description {
+    font-size: 15px;
+}
 
 /*QUERIES*/
 
 @media screen and (max-width: 1440px) {
-    
+    #section-01 {
+        gap: 2em;
+    }
+    .blog-column {
+        width: 45%;
+    }
+    #main-title {
+        padding-top: 2%;
+    }
+    .article-displayed-plot {
+        font-size: 13px;
+        font-weight: 300;
+    }
 }
 @media screen and (max-width: 1000px) {
-    .left-side-container {
-        width: 80%;
-        height: auto;
-        margin-top: 10%;
+    .article-displayed-plot {
+        font-size: 12px;
+        font-weight: 300;
     }
-    .last-article-container {
-        width: 100%;
-        height: auto;
+    #section-01 {
+        gap: 2em;
     }
-    .last-article-smaller-box {
-        width: 90%;
-        height: 90%;
-        max-width: fit-content;
-        margin: auto;
+    .blog-column {
+        width: 45%;
     }
-    .last-article-ad {
-        font-size: 30px;
+    #main-title {
+        padding-top: 20%;
     }
-    .last-article-title {
-        margin-bottom: 0;
+    #main-h1 {
         font-size: 70px;
     }
-    .last-article-cover {
-        width: 100%;
-        border-radius: 20px;
+    #main-title {
+        margin-top: 5%;
     }
-    .types-of-article {
-        width: 60%;
-        height: auto;
-        margin-top: 10%;
-    }
-    .article-country {
-        height: 15em;
-    }
-
-    .articles-gallery-container {
-        padding: 15%;
-        padding-top: 0;
-        margin: 0;
-        margin-top: 0;
-        height: auto;
-    }
-    .gallery-title {
-        margin: auto;
-        font-size: 100px;
-    }
-    .best-articles-container {
-        display: flex;
-        flex-direction: column;
-    }
-    .link-to-article {
-        margin: auto;
-        margin-top: 10%;
-    }
-    .article-box {
-        border-radius: 2rem;
-        width: 90%;
-        height: 20%;
-        margin: auto;
-    }
-        .article-box:hover {
-            width: 70%;
-            height: auto;
-        }
-    .article-cover {
-        width: 90%;
-        height: auto;
-        margin: 1em;
-    }
-    .article-title {
-        font-size: 60px;
-        padding: 0;
-    }
-    .article-duration {
-        font-size: 30px;
-    }
-    .article-description {
-        font-size: 35px;
-        padding: 0;
+    #main-h4 {
+        font-size: 50px;
     }
 }
 
 @media screen and (max-width: 600px) {
-  
+    #section-01 {
+        flex-direction: column;
+        gap: 2em;
+    }
+    .blog-column {
+        width: 90%;
+    }
+    #main-title {
+        padding-top: 50%;
+    }
 }
