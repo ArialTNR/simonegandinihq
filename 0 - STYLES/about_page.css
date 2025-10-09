@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+header {
+    height: 100%;
+    height: 100vh;
+    width: auto;
+    font-family: 'Inter', sans-serif;
+    background-image: url("../0 - IMAGES/simone-neve.png");
+    background-size: cover;
+    background-position: center;
+}
+.top-logo-container {
+    text-align: center;
+}
+.top-logo {
+    height: 8em;
+}
+.nav-link-container {
+    height: 8em;
+    width: 8em;
+    align-items: center;
+    display: flex;
+}
+.nav-link {
+    text-decoration: none;
+    color: #CCCDC7;
+    margin: auto;
+}
+
+/*ALL THE SOCIAL*/
+.instagram {
+    margin-top: 15%;
+    margin-left: 20%;
+}
+.spotify {
+    margin-top:20%;
+    margin-left: 65%;
+}
+.tiktok {
+    margin-top: 34%;
+    margin-left: 58%;
+}
+.youtube {
+    margin-top: 38%;
+    margin-left: 25%;
+}
+
+.social-icon-container {
+    height: 5%;
+    width: 8%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px #cccdc74d;
+    border-radius: 2em;
+    transition-duration: .4s;
+    text-decoration: none;
+    color: #3B3B3B;
+    font-size: 17px;
+    overflow: hidden;
+}
+    .social-icon-container:hover {
+    height: 20%;
+    width: 32%;
+    background-color: #cccdc74d;
+    border: none;
+    }
+.social-icon-logo {
+    height: 80%;
+    margin-top: 3%;
+}
+    .social-icon-container:hover .social-icon-logo {
+        height: 20%;
+        transition: .35s;
+    }
+.social-title {
+    margin-top: 2em;
+    font-weight: 600;
+}
+.social-icon-text {
+    margin-top: 1em;
+}
+
+
+body {
+    background-color: #050206;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.vain-page {
+    height: 100%;
+    height: 100vh;
+    width: auto;
+    background-image: url("../0 - IMAGES/vain-neve.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+@media screen and (max-width: 1440px) {
+    
+}
+@media screen and (max-width: 1000px) {
+    .instagram {
+        margin-top: 50%;
+        margin-left: 20%;
+    }
+    .spotify {
+        margin-top:100%;
+        margin-left: 65%;
+    }
+    .tiktok {
+        margin-top: 34%;
+        margin-left: 70%;
+    }
+    .youtube {
+        margin-top: 120%;
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width: 600px) {
+  
+}
