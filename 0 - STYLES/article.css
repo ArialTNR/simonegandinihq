@@ -335,11 +335,20 @@ blockquote {
     h1 {
         font-size: 60px;
     }
+    h4 {
+        font-size: 40px;
+    }
   }
 
 @media screen and (max-width: 600px) {
     .article-text {
         line-height: 3em;
+    }
+    h4 {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 40px;
     }
     
 }
