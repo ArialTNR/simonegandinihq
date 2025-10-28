@@ -198,6 +198,17 @@ footer {
     
   }
 @media screen and (max-width: 992px) {
+    .top-section {
+        height: auto;
+        padding: 5%;
+        gap: 2em;
+    }
+    .nav-link-container {
+        width: auto;
+    }
+    .nav-link {
+        font-size: 25px;
+    }
     
     .menu-columns-container {
         display: flex;
@@ -241,11 +252,26 @@ footer {
   }
 
 @media screen and (max-width: 600px) {
+    .top-section {
+        height: auto;
+        padding: 5%;
+        gap: 2em;
+    }
+    .nav-link-container {
+        width: auto;
+    }
+    .nav-link {
+        font-size: 25px;
+    }
+    #main-title {
+        gap: 0.5rem;
+    }
+
     #main-h1 {
         font-size: 50px;
     }
     #main-h4 {
-        font-size: 50px;
+        font-size: 25px;
     }
     #social-media-logos {
         margin: auto;
