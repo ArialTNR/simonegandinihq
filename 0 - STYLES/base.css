@@ -195,6 +195,12 @@ footer {
 /*QUERIES*/
 
 @media screen and (max-width: 1440px) {
+    .menu-title {
+        font-size: 40px;
+    }
+    .footer-link {
+        font-size: 35px;
+    }
     
   }
 @media screen and (max-width: 992px) {
