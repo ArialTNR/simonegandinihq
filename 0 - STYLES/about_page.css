@@ -113,11 +113,14 @@ section {
         width: 6rem;
         font-size: 14px;
     }
+
     #chi-sono {
         font-size: 150px;
     }
     #experiences {
-        width: 100%;
+        width: 80%;
+        margin: auto;
+        margin-top: 5em;
     }
 }
 @media screen and (max-width: 1000px) {
@@ -138,12 +141,27 @@ section {
         width: 5rem;
         font-size: 12px;
     }
-    #chi-sono {
-        font-size: 100px;
+
+    #section-03 {
+        padding-top: 20%;
     }
     #experiences {
         width: 80%;
+        margin: auto;
+        margin-top: 5em;
     }
+    .experience-box {
+        flex-direction: column;
+        height: auto;
+        gap: 0.5em;
+    }
+    .experience-data {
+        font-size: 14px;
+    }
+    #chi-sono {
+        font-size: 100px;
+    }
+
 }
 @media screen and (max-width: 600px) {
     #section-01 {
